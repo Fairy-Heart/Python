@@ -1,0 +1,10 @@
+test
+*.exe
+*.bat
+bin
+build
+obj
+dist
+*.spec
+*.zip
+__pycache__
