@@ -1,0 +1,8 @@
+bin
+obj
+*.exe
+test
+dist
+*.spec
+build
+*.parser
