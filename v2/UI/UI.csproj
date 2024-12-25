@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>RailgunDownloaderV2</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="./icon.ico">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="./core/bin/railgun.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
